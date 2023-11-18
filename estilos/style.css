@@ -29,3 +29,12 @@ section#login {
     border-radius: 20px;
     background-color: bisque;
 }
+
+section#login > div#imagem {
+    background-image: url(../imagens/pexels-cottonbro-studio-3585089.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
