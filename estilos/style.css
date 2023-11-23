@@ -105,6 +105,7 @@ div.entrar > input[type=submit] {
     cursor: pointer;
     background-color: #FF8A00;
     font-weight: bold;
+    color: black;
 }
 
 div.entrar > input[type=submit]:hover {
@@ -146,7 +147,6 @@ div.campo-login > span {
 
 div.campo > span {
     color: black;
-    
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -177,6 +177,10 @@ div.entrar > a.botao {
 div.entrar > a.botao:hover {
     background-color: #FFC40D;
     transition-duration: 0.3s;
+}
+
+div.entrar > input {
+    color: black;
 }
 
 
