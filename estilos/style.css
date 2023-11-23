@@ -11,6 +11,7 @@
 body, html {
     height: 100vh;
     width: 100vw;
+    background-color: #FFC40D;
 }
 
 main {
@@ -26,10 +27,10 @@ section#login {
     
     overflow: hidden;
 
-    width: 250px;
+    width: 280px;
     height: 515px;
     border-radius: 20px;
-    background-color: bisque;
+    background-color: #E89C0C;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
 
     transition: width .3s, height .3s;
@@ -56,27 +57,38 @@ section#login > div#formulario > h1 {
     margin-bottom: 10px;
 }
 
+div#formulario > h1 {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
+}
+
 div#formulario > p {
-    font-size: 0.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+    text-align: center;
 }
 
 form > div.campo {
-    background-color: whitesmoke;
+    background-color: #FF8A00;
     border: 3px solid rgb(194, 167, 133);
     width: 100%;
     height: 40px;
-    border-radius: 8px;
+    border-radius: 12px;
     margin: 5px 0px;
    
 }
 
 form > div.campo-login {
-    background-color: whitesmoke;
+    background-color: #FF8A00;
     border: 3px solid rgb(194, 167, 133);
     width: 100%;
     height: 40px;
-    border-radius: 8px;
+    border-radius: 12px 12px;
     margin: 5px 0px;
+}
+
+form > a.botao > span {
+    font-size: 0.8em;
 }
 
 div > label {
@@ -91,11 +103,18 @@ div.entrar > input[type=submit] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
+    background-color: #FF8A00;
+    font-weight: bold;
 }
 
+div.entrar > input[type=submit]:hover {
+    background-color: #FFC40D;
+    transition-duration: 0.3s;
+}
+
+
 div.campo > input {
-    background-color: rgb(194, 167, 133);
+    background-color: #FFC40D;
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
@@ -103,18 +122,10 @@ div.campo > input {
     border-radius: 8px;
     padding: 5px;
     transform: translateY(-13px);
-}
-
-div.campo > input:focus-within {
-    background-color: white;
-}
-
-div.campo-login > input:focus-within {
-    background-color: white;
 }
 
 div.campo-login > input {
-    background-color: rgb(196, 171, 140);
+    background-color: #FFC40D;
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
@@ -123,6 +134,7 @@ div.campo-login > input {
     padding: 5px;
     transform: translateY(-13px);
 }
+
 
 div.campo-login > span {
     color: black;
@@ -142,23 +154,29 @@ div.campo > span {
 
 
 
+div#formulario > p {
+    font-size: 0.8em;
+}
 
 
 div.entrar > a.botao {
-    background-color: whitesmoke;
+    background-color: #FF8A00;
     display: block;
     text-align: center;
     font-size: 1em;
+    font-weight: bold;
     width: 100%;
     height: 40px;
-    padding-top: 5px;
+    padding-top: 8px;
     margin-top: 5px;
     border-radius: 5px;
     text-decoration: none;
     color: black;
 }
 
-
-form > a.botao > span {
-    font-size: 0.8em;
+div.entrar > a.botao:hover {
+    background-color: #FFC40D;
+    transition-duration: 0.3s;
 }
+
+
